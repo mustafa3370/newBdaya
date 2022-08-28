@@ -314,7 +314,7 @@ transition: all .40s ease;
     margin-right: 2px;
     font-size: 17px;
 }
-.review p{
+.more{
     color: #696969;
     font-size: var(--p-font);
     font-weight: 400;
