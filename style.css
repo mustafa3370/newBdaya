@@ -137,6 +137,10 @@ right: 1px;
 height: auto;
 width: 100%;
 }
+.home-img2 img{
+    height: auto;
+    width: 100%;
+}
 header.sticky{
     background: var(--bg-color);
     padding: 12px 13%;
