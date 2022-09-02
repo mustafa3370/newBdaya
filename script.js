@@ -15,3 +15,12 @@ window.onscroll = () => {
 	menu.classList.remove('bx-x');
 	navbar.classList.remove('open');
 };
+document.querySelectorAll('.videos-content video').forEach(vid=>{
+	vid.onclick =()=>{
+		document.querySelector('.popup-videos').style.display ='block';
+		document.querySelector('.popup-videos video').src = vid.getAttribute('src');
+	}
+});
+document.querySelector('.popup-videos span').onclick=()=>{
+	document.querySelector('.popup-videos').style.display ='none';
+}
