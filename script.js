@@ -24,3 +24,5 @@ document.querySelectorAll('.videos-content video').forEach(vid=>{
 document.querySelector('.popup-videos span').onclick=()=>{
 	document.querySelector('.popup-videos').style.display ='none';
 }
+
+//changephoto
